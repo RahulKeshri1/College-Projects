@@ -68,10 +68,10 @@ def check(arr,row,col):
     skw=0
     for i in range(row):
         for j in range(col):
-            if arr[i][j]==arr[j][i]:
-                sym+=1
-            elif int(arr[i][j]) == - arr[j][i]:
+            if (arr[i][j] == - arr[j][i]) or arr[i][i]==0:
                 skw+=1
+            elif arr[i][j]==arr[j][i]:
+                sym+=1
             else:
                 break
         if arr[i][j]!=arr[j][i] and arr[i][j] != -arr[j][i]:

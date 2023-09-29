@@ -12,7 +12,7 @@ def input_matrix(matrix,row,col,k=""):
             matrix[i][j]=int(input())
     return matrix
 
-#Function to find the Transpose of a Matrix.
+#Function to find the Transpose of a Matrix.ṇ
 def transpose(arr,row,col):
     ans=np.zeros((col,row))
 

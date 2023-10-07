@@ -19,13 +19,11 @@ def summation(x):
             ans=ans+(pow(x,i))/(factorial(i))
     
     return ans
-import math
 
 def main():
      x=int(input("Enter the power of e:\t"))
      ans=summation(x)
      print(f"Value of e^{x}={ans}")
-     print(f"Value of e^{x}={math.exp(x)}")
      return ""
 
 main()

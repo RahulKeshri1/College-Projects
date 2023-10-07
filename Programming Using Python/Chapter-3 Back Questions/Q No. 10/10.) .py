@@ -1,7 +1,7 @@
 #Write a program that prints Armstrong numbers in
 #the range 1 to 1,000. An Armstrong number is a
 #number whose sum of the cubes of the digits is equal to
-#the number itself. For example, 370 = 3^3 + 7^3 + 0^3 .
+#the number itself. For example, 370 = 3^3 + 7^3 + 0^3.
 
 def armstrong(x):
     real=x
@@ -21,6 +21,6 @@ def main():
     for i in range(1,1001):
         if armstrong(i):
             print(i)
-
+    return ""
 
 main()

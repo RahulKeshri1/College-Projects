@@ -44,6 +44,5 @@ def main():
                 continue
 
     print("Thank you for your valuable time:)")
-    input()
 
 main()

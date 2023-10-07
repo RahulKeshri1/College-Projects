@@ -1,6 +1,8 @@
 #Wr ite a function that finds the sum of the n terms of
 #the following series:
 #1 . 1 – x^2 /2! + x^4 /4! – x^6 /6! + … x^n /n!
+
+
 def factorial(n):
     ans=1
     if n==0 or n==1:

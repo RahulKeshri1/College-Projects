@@ -1,5 +1,5 @@
 # Write a function that takes two numbers as input
-#parameters and returns their least common m ultiple.
+#parameters and returns their least common multiple.
 
 def lcm(num1,num2):
     for i in range(num1,num1*num2):

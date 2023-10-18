@@ -20,4 +20,11 @@
 #becomes sufficiently small, say , 0.01. The following
 #table depicts the steps for com puting square root
 #approximation for the number 2.
-#
+
+
+def main():
+    num=int(input("Enter the number you want to find the sqrt of:\t"))
+    sqr=num**0.5
+    print(f"The sqrt of {num} is {sqr}")
+
+main()

@@ -7,9 +7,9 @@
 
 #Function to check a number for Prime.
 def checkprime(num):
-    if num==0:
+    if num<2:
         return " "
-    elif num==1 or num==2:
+    elif num==2:
         return num
     else:
         for i in range(2,(num//2)+1):

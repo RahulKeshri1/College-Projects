@@ -7,9 +7,9 @@
 
 #Function to check a number for Prime.
 def checkprime(num):
-    if num==0:
+    if num<2:
         return " "
-    elif num==1 or num==2:
+    elif num==2:
         return num
     else:
         for i in range(2,(num//2)+1):
@@ -20,8 +20,8 @@ def checkprime(num):
 
 #Function to Generate all Prime Numbers till "n".
 def gpn(num):                       #gpn=Generate Prime till 'n'.
-    print("1",end="")
-    for i in range(2,num+1):
+    print("2",end="")
+    for i in range(3,num):
         ans=checkprime(i)
         if ans!=" ":
             print(",",i,end="")
@@ -30,9 +30,9 @@ def gpn(num):                       #gpn=Generate Prime till 'n'.
 #Function to Generate First 'n' Prime Numbers.
 def gfnp(num):                      #gfnp=Generate First 'n' Prime numbers .
     counter=0
-    i=2
+    i=3
     if num>=1:
-        print("1",end="")
+        print("2",end="")
     while counter < num-1:
         ans=checkprime(i)
         if ans !=" " :
